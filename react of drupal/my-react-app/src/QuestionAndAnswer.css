@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 40px;
+    color: hsl(234, 94%, 49%);
+    text-shadow: 
+        -3px 3px 0 rgba(195, 194, 199, 0.805);   
+}
+
+.nav.nav-tabs {
+    --bs-nav-tabs-border-color: hsl(234, 94%, 49%);
+}
+
+.nav-tabs {
+    margin-bottom: 20px;
+    border-bottom-color: hsl(234, 94%, 49%);
+}
+
+a.nav-item.nav-link.active {
+    border-color: hsl(234, 94%, 49%);
+    border-bottom: transparent;
+    color: hsl(0, 0%, 61%);
+}
+
+.nav-item.nav-link {
+    color: hsl(234, 94%, 49%);
+    cursor: pointer;
+    border: none;
+}
+
+.question-row {
+    cursor: pointer;
+    background-color: rgba(216, 215, 220, 0.805);
+    color: hsl(234, 94%, 49%);
+    padding: 7px;
+    border-radius: 8px; 
+    margin-bottom: 15px;
+    border: none; 
+}
+
+.question-row:hover {
+    background-color: #aba8a8; 
+    color: rgb(50, 10, 250); 
+}
+
+.answer-row {
+    padding: 10px;
+    display: none;
+    background-color: #ffffff;
+    color:rgb(50, 10, 250); 
+    border-radius: 8px;
+    margin-top: 0px; 
+}
+
+.answer-row.show {
+    display: table-row;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+
+
