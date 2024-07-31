@@ -1,0 +1,22 @@
+uuid: 831c0348-1855-455f-ade0-3e369f79e98e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_answer
+    - node.type.question
+  module:
+    - text
+id: node.question.field_answer
+field_name: field_answer
+entity_type: node
+bundle: question
+label: Answer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

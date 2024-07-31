@@ -1,0 +1,16 @@
+uuid: 09bab06a-64ab-4e43-ba13-14972e453e29
+langcode: en
+status: true
+dependencies:
+  module:
+    - hal
+    - user
+id: entity.entity_view_mode
+plugin_id: 'entity:entity_view_mode'
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - hal_json
+    supported_auth:
+      - cookie
